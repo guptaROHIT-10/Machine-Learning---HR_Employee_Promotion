@@ -1,0 +1,35 @@
+{
+    "validation_metrics": {
+        "accuracy": 0.8883333333333333,
+        "precision": 0.8122743682310469,
+        "recall": 0.9375,
+        "f1_score": 0.8704061895551257,
+        "roc_auc": 0.9686226851851852
+    },
+    "test_metrics": {
+        "accuracy": 0.8966666666666666,
+        "precision": 0.822463768115942,
+        "recall": 0.9458333333333333,
+        "f1_score": 0.8798449612403101,
+        "roc_auc": 0.9665393518518519
+    },
+    "confusion_matrix": [
+        [
+            311,
+            49
+        ],
+        [
+            13,
+            227
+        ]
+    ],
+    "best_cv_f1": 0.8745339818255373,
+    "best_params": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": "log2",
+        "max_depth": 10,
+        "class_weight": "balanced_subsample"
+    }
+}

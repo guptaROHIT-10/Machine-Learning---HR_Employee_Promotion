@@ -1,0 +1,6 @@
+pandas
+numpy
+scikit-learn
+catboost
+joblib 
+# joblib is a Python library used to save your trained machine learning models to your hard drive so you don't have to retrain them every single time

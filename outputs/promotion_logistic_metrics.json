@@ -1,0 +1,32 @@
+{
+    "validation_metrics": {
+        "accuracy": 0.8966666666666666,
+        "precision": 0.8272058823529411,
+        "recall": 0.9375,
+        "f1_score": 0.87890625,
+        "roc_auc": 0.969664351851852
+    },
+    "test_metrics": {
+        "accuracy": 0.905,
+        "precision": 0.8426966292134831,
+        "recall": 0.9375,
+        "f1_score": 0.8875739644970414,
+        "roc_auc": 0.9720833333333333
+    },
+    "confusion_matrix": [
+        [
+            318,
+            42
+        ],
+        [
+            15,
+            225
+        ]
+    ],
+    "best_cv_f1": 0.884460938742205,
+    "best_params": {
+        "C": 10.0,
+        "class_weight": "balanced",
+        "solver": "lbfgs"
+    }
+}

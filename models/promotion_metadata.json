@@ -1,0 +1,65 @@
+{
+    "target_column": "Promoted",
+    "feature_columns": [
+        "Department",
+        "Job_Role",
+        "Current_Job_Level",
+        "Years_At_Company",
+        "Years_In_Current_Role",
+        "Total_Years_Experience",
+        "Performance_Rating_Previous_Cycle",
+        "KPI_Score_Previous_Cycle",
+        "Training_Score",
+        "Awards_Count_Previous_Cycle",
+        "Leadership_Assessment_Score",
+        "Skills_Assessment_Score",
+        "Attendance_Percentage",
+        "Disciplinary_Flags_Previous_Cycle",
+        "Promotion_Eligible"
+    ],
+    "categorical_columns": [
+        "Department",
+        "Job_Role",
+        "Current_Job_Level",
+        "Promotion_Eligible"
+    ],
+    "numeric_columns": [
+        "Years_At_Company",
+        "Years_In_Current_Role",
+        "Total_Years_Experience",
+        "Performance_Rating_Previous_Cycle",
+        "KPI_Score_Previous_Cycle",
+        "Training_Score",
+        "Awards_Count_Previous_Cycle",
+        "Leadership_Assessment_Score",
+        "Skills_Assessment_Score",
+        "Attendance_Percentage",
+        "Disciplinary_Flags_Previous_Cycle"
+    ],
+    "numeric_medians": {
+        "Years_At_Company": 3.7,
+        "Years_In_Current_Role": 1.6,
+        "Total_Years_Experience": 8.4,
+        "Performance_Rating_Previous_Cycle": 3.1,
+        "KPI_Score_Previous_Cycle": 71.5,
+        "Training_Score": 73.4,
+        "Awards_Count_Previous_Cycle": 0.0,
+        "Leadership_Assessment_Score": 59.7,
+        "Skills_Assessment_Score": 67.4,
+        "Attendance_Percentage": 96.4,
+        "Disciplinary_Flags_Previous_Cycle": 0.0
+    },
+    "threshold": 0.5699999999999997,
+    "random_state": 42,
+    "test_size": 0.2,
+    "validation_size": 0.2,
+    "best_params": {
+        "random_strength": 0.5,
+        "learning_rate": 0.02,
+        "l2_leaf_reg": 7,
+        "iterations": 500,
+        "depth": 5
+    },
+    "model_type": "CatBoostClassifier",
+    "synthetic_data_warning": "If trained on synthetic data, test metrics do not establish real-world promotion prediction performance."
+}
